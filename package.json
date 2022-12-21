@@ -1,0 +1,23 @@
+{
+  "name": "flv-demo",
+  "version": "1.0.0",
+  "description": "dlv-demo",
+  "main": "app.js",
+  "dependencies": {
+    "node-media-server": "^2.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullStack1994/flv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FullStack1994/flv/issues"
+  },
+  "homepage": "https://github.com/FullStack1994/flv#readme"
+}

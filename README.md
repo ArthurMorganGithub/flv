@@ -18,3 +18,6 @@ ffmpeg -stream_loop -1 -re -i "E:\FFOutput\BigBuckBunny-h265.mp4" -c copy -f flv
 ffmpeg -re -i "E:\FFOutput\BigBuckBunny-h265.mp4" -c:a copy -c:v libx265 -f flv rtmp://192.168.2.29:1935/live/BigBuckBunny
 
 ffmpeg -re -stream_loop -1 -i "E:\FFOutput\BigBuckBunny-h265.mp4" -c:a copy -c:v h264 -f flv rtmp://192.168.2.29:1935/live/BigBuckBunny  推h264
+
+h265
+ffmpeg -stream_loop -1 -re -i "C:\Users\qiaoj\Documents\Videos1409899.mp4" -vcodec libx265 -c copy -f flv rtmp://192.168.2.29:1935/live/BigBuckBunny
